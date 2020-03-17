@@ -1,7 +1,6 @@
 body, html {
     height: 100%;
     width: 100%;
-    /* margin: 0 auto; */
 }
 .container{
     background-image: url(../images/header-image.jpg);
@@ -9,14 +8,28 @@ body, html {
     width: 1280px;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 60px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .logo-text p{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     font-size: 28px;
     font-weight: bold;
     font-family: dancingskript;
     color: #D9F0FF;
+}
+.navigation-ul{
+    display: flex;
+}
+.navigation-ul li{
+    margin: 0 30px;
+    color: #D9F0FF;
+    font-size: 12px;
+    font-family: poppins;
+    text-transform: uppercase;
+}
+.navigation-ul li:last-child{
+    margin-right: 0;
 }
