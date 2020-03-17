@@ -1,13 +1,21 @@
 body, html {
     height: 100%;
+    width: 100%
+}
+.head-section{
+    background-image: url(../images/header-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.head-section header{
     width: 100%;
 }
 .container{
-    background-image: url(../images/header-image.jpg);
     height: 900px;
-    width: 1280px;
-    background-repeat: no-repeat;
-    background-position: center;
+    width: 100%;
     padding: 60px;
     margin: 0 auto;
     display: flex;
@@ -32,4 +40,43 @@ body, html {
 }
 .navigation-ul li:last-child{
     margin-right: 0;
+}
+header{
+    position: fixed;
+    height: 90px;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.text-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.text{
+    color: #fff;
+    font-family: poppins;
+}
+.text-box h1{
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 100px;
+    font-family: lato;
+}
+.button{
+    margin-top: 25px;
+    height: 70px;
+    width: 305px;
+    background-color: #325DFF;
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: lato;
+    
 }
