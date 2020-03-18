@@ -129,3 +129,28 @@ header{
     height: 601.5px;
     width: 50%;
 }
+.section3-container{
+    height: 965px;
+    width: 100%;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+}
+.section3-text-box{
+    height: 130px;
+    width: 771px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section3-text-box h3{
+    font-family: lato;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.section3-text-box p{
+    font-family: poppins;
+    font-size: 16px;
+    opacity: 65%;
+}
