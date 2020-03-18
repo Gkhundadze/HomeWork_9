@@ -80,3 +80,52 @@ header{
     font-family: lato;
     
 }
+.section2-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.section2-div{
+    height: 601.5px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 90px;
+}
+.section2-div h4{
+    font-family: lato;
+    font-size: 50px;
+    margin-bottom: 25px;
+    height: 186px;
+    width: 468px;
+}
+.section2-div p{
+    font-family: poppins;
+    font-size: 16px;
+    height: 128px;
+    width: 457px;
+    opacity: 50%;
+}
+.section2-div button{
+    background-color: #325DFF;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: lato;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50px;
+    height: 72px;
+    width: 307px;
+}
+.section2-div2 img{
+    width: 100%;
+}
+.section2-div2{
+    display: flex;
+    /* justify-content: flex-end; */
+    height: 601.5px;
+    width: 50%;
+}
