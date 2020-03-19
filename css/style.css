@@ -129,12 +129,18 @@ header{
     height: 601.5px;
     width: 50%;
 }
+.section3{
+    height: 100%;
+    width: 100%;
+}
 .section3-container{
-    height: 965px;
+    height: 100%;
     width: 100%;
     background-color: #FAFAFA;
     display: flex;
+    padding: 0 55px;
     justify-content: center;
+    position: relative;
 }
 .section3-text-box{
     height: 130px;
@@ -143,6 +149,8 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 .section3-text-box h3{
     font-family: lato;
